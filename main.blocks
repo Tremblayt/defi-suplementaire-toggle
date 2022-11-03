@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=")$;N8_%x2!FG{ri^7J!!">on/off</variable></variables><block type="pxt-on-start" id="W`[WZ-rO.6ypW-y!,BcF" x="69" y="72"><statement name="HANDLER"><block type="variables_set" id="cx%)w6+Ps9v^BizYGK0Z"><field name="VAR" id=")$;N8_%x2!FG{ri^7J!!">on/off</field><value name="VALUE"><shadow type="math_number" id="h(167UQqjh-YFoY|5ye_"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id="LI]Q7I,=8MgsG$WmNa.v" x="370" y="65"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="o}C,1yXTv;rC]M*$Ka{|"><next><block type="controls_if" id="=Z8Cc9W?.blY~2ogNUW="><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="+geajyz$_96k.(3(|*/4"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="sZr!4/|VzwZ-xt:u944P"><field name="VAR" id=")$;N8_%x2!FG{ri^7J!!">on/off</field></block></value><value name="B"><shadow type="math_number" id="KVQ4~+W/w=:M`Y%PF5iB"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="variables_change" id="0V)*+~T?]x7]7dfX6Af8"><field name="VAR" id=")$;N8_%x2!FG{ri^7J!!">on/off</field><value name="VALUE"><shadow type="math_number" id="Rhv(MFt,t^{Y`p-vN.bD"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="(ZF$p*c(jsy,n9r!bQ4F"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></statement><value name="IF1"><block type="logic_compare" id="w/~ku/Ry7tD2*U7KZ;nE"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="LY`/Uigr+=:3/Vsu1sFt"><field name="VAR" id=")$;N8_%x2!FG{ri^7J!!">on/off</field></block></value><value name="B"><shadow type="math_number" id="GmW,@Wn*cmra^33[:@-L"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="variables_change" id="#6*d;`dICOu{=?0`|xdu"><field name="VAR" id=")$;N8_%x2!FG{ri^7J!!">on/off</field><value name="VALUE"><shadow type="math_number" id="2tBL;1EcY7Kw-+PG{q@O"><field name="NUM">-1</field></shadow></value><next><block type="device_show_leds" id="yzIGlT!AJyC(@am4f?-!"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></next></block></statement></block></xml>
